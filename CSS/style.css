@@ -61,7 +61,7 @@
     display: flex;
     flex-direction: column;
     padding: 3px 200px;
-    height: 400px;
+    height: 450px;
     justify-content: center;
     align-items: center;
     
@@ -72,7 +72,7 @@
     content: "";
     background:url(/Img/bg1.jpg) no-repeat center center/cover;
     position: absolute;
-    height: 150%;
+    height: 100%;
     width: 100%;
     z-index: -1;
     opacity: 0.84;
@@ -93,15 +93,38 @@
     font-family: "Baloo Bhaijaan 2", sans-serif;
 }
 /* services center  */
+#sec-con{
+    margin: 220px 0px 0px;
+    
+    
+}
 #services{
     margin: 34px;
     display: flex;
+   
 }
-#services .box{
 
-    border-radius: 2px solid rgb(31, 153, 10);
+
+#services .box{
+border: 2px solid green;
+    
 }
  
+
+#services .box img{
+    height: 190px;  
+    margin: auto;
+    display: block;  
+    }
+
+
+
+
+
+
+
+
+
 /* Utility Class */
 .h-primary{
 
@@ -115,7 +138,7 @@
     padding: 12px;
 
 }
-btn{
+.btn{
     padding: 9px;
     margin: 23px;
     background-color: #864242;
@@ -128,6 +151,7 @@ btn{
 }
 .btn:hover{   
     background-color: rgb(234, 118, 118);
+      border-radius: 8px;
 }
 
 .center{
